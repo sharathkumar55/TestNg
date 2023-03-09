@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.example.TestNgDemo.CustomListeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/home/sharkt/Downloads/Spring-Projects/TestNgDemo/src/test/java/com/example/TestNgDemo/ListenerTest.java">
+        <classes>
+            <class name="com.example.TestNgDemo.ListenerTest">
+                <methods>
+                    <include name="TestOne"/>
+                    <include name="TestTwo"/>
+                    <include name="TestThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
